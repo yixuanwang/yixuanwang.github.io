@@ -1,0 +1,51 @@
+@font-face {
+    font-family: scifly;
+    src: url(/assets/fonts/SciFly-Sans.ttf);
+}
+
+body {
+	background: url(/assets/images/BlurredBackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: scifly !important;
+    margin: 0;
+    overflow: hidden;
+}
+
+.left-container {
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+	background-color: #fff;
+	color: #282828;
+	z-index: 1;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba(40,40,40,0.3);
+}
+
+.left-container .list-group{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+.left-container .list-group .list-group-item{
+    text-align: center;
+}
+.right-container{
+    background: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    width: 59%;
+    height: 80%;
+    top: 10%;
+    left: 31%;
+	color: #282828;
+	z-index: 1;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba(40,40,40,0.3);
+}
