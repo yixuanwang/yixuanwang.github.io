@@ -32,7 +32,14 @@ body {
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 10px 0 rgba(40,40,40,0.3);
 }
+.socialButton{
+    color: grey;
+    padding: 0.1em;
+}
 
+.socialButton:hover{
+    color: black;
+}
 .content{
     padding: 5%;
 }
@@ -54,7 +61,7 @@ body {
         background-color: white;
         box-shadow: 0 0 10px 0 rgba(40,40,40,0.3);
     }
-    
+
     .nav-item{
         display: block;
         width: 80%;
