@@ -1,7 +1,12 @@
 <div class="left-container">
-  <p class="headline">lorem ipsum</p>
-  <img class="logo" src="/assets/images/wangyixuan.png" width="50" height="50">
-  <hr>
+  
+  <div class="details">
+  <img class="logo" src="/assets/images/wangyixuan.png">
+    <br>
+	<h1>blabla</h1>
+	<p>alkfshdfkjhe askudfh asfdkh afsdhk</p>
+	<br>
+  </div>
   <div class="list-group">
     <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
     <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
