@@ -14,7 +14,7 @@ layout: default
 			<a class="socialButton" href="#"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>
 		    <a class="socialButton" href="#"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i></a>
 		    <a class="socialButton" href="#"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
-		    <a class="socialButton" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i></a>
+		    <a class="socialButton email" href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
 		</div>
 		<br>
 		<div class="navbar">
