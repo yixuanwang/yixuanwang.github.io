@@ -67,36 +67,6 @@ body {
     padding: 0.5em;
 }
 
-@media screen and (min-width: 1400px){
-    body{
-        font-size: 150% !important;
-    }
-    .left-container .details{
-        bottom: 185px !important;
-    }
-}
-
-
-@media screen and (min-width: 1224px){
-    .left-container .list-group .list-group-item{
-        font-size: 130%;
-    }
-    .left-container .details{
-        bottom: 160px;
-    }
-    body{
-        font-size: 130%;
-    }
-}
-
-@media only screen and (min-width : 768px) and (max-width : 1024px){
-    .left-container .details{
-        bottom: 100px;
-    }
-    body{
-        font-size: 105% !important;
-    }
-}
 .left-container .list-group .list-group-item:first-child{
     border-top: 1px solid grey !important;
 }
@@ -130,4 +100,37 @@ body {
 	box-shadow: 0 0 10px 0 rgba(40,40,40,0.3);
     max-width: 1200px;
     max-height: 700px;
+}
+
+/* EXTRA LARGE DESKTOP */
+@media screen and (min-width: 1400px){
+    body{
+        font-size: 150% !important;
+    }
+    .left-container .details{
+        bottom: 185px !important;
+    }
+}
+
+/* LARGE DESKTOP*/
+@media screen and (min-width: 1201px){
+    .left-container .list-group .list-group-item{
+        font-size: 130%;
+    }
+    .left-container .details{
+        bottom: 160px;
+    }
+    body{
+        font-size: 130%;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width : 768px) and (max-width : 992px){
+    .left-container .details{
+        bottom: 100px;
+    }
+    body{
+        font-size: 105% !important;
+    }
 }
