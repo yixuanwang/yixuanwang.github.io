@@ -17,12 +17,7 @@ layout: default
 		    <a class="socialButton email" href="#"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
 		</div>
 		<br>
-		<div class="navbar">
-			<a class="nav-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
-		    <a class="nav-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
-		    <a class="nav-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
-		    <a class="nav-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
-		</div>
+		{% include navbar.inc %}
 	</div>
 </div>
 <div class="right-container hidden-xs">
