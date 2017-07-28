@@ -6,9 +6,10 @@
 
   <title>WYX</title>
 
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/animate.css">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  {% include hotjar.inc %}
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
