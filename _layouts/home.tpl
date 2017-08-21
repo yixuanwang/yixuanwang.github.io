@@ -7,9 +7,8 @@ layout: default
 	<br>
 	<br>
 	<br>
-	<hr>
 	<div class="content">
-
+		<img class="profile-img" src="/assets/images/profile.jpg">
 		<h1>Yixuan Wang</h1>
 		<p>Welcome to my website!</p>
 		<div class="social">
