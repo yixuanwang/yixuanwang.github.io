@@ -14,17 +14,42 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Yixuan Wang  
-email: wangyixuan98@hotmail.com
+bio: "Welcome to my website! Feel free to take a look around~"
 description: > # this means to ignore newlines until "baseurl:"
   Welcome! Meet Yixuan Wang
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  yixuanwang
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Social
+email: wangyixuan98@hotmail.com
+#twitter:            username
+facebook:           username
+github-url:         yixuanwang
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

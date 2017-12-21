@@ -2,31 +2,36 @@
 layout: default
 ---
 
-<div class="wrapper">
-<div class="left-container">
-	<br>
-	<br>
-	<br>
-	<div class="content">
-		<img class="profile-img" src="/assets/images/profile.jpg">
-		<h1>Yixuan Wang</h1>
-		<p>Welcome to my website!</p>
-		<div class="social">
-			<a class="socialButton" href="https://github.com/yixuanwang"><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>
-		    <a class="socialButton" href="https://www.linkedin.com/in/yixuanwang98/"><i class="fa fa-linkedin fa-fw" aria-hidden="true"></i></a>
-		    <a class="socialButton" href="https://www.facebook.com/yixuan.wang.90"><i class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
-		    <a class="socialButton email" href="mailto:wangyixuan98@hotmail.com"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
-		</div>
-		<br>
-		{% include navbar.inc %}
-	</div>
-</div>
-<div class="right-container hidden-xs">
-	<div class="content">
-	<br>
-	<br>
-		<h2>In construction...</h2>
-		<p>Come back later :)</p>
-	</div>
-</div>
-</div>
+<header class="header flex" role="banner">
+        <div class="container animated fadeIn">
+            <div class="row">
+                    <a href="{{ site.url }}">
+                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                    </a>
+                    <h3 class="title">
+                        <a class="zoombtn" href="{{ site.url }}">
+                        	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+			            </a>
+                    </h3>
+                    <hr class="hr-line">
+                    <h3 class="title">
+                        <a href="{{ site.url }}">
+                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+			            </a>
+                    </h3>
+                    {% include social.inc %}
+                  <hr class="hr-line">
+                  <h3 class="title">
+                         <a class="btn zoombtn" href="{{ site.url }}/about">
+                         About
+                         </a>
+                         <a class="btn zoombtn" href="{{ site.url }}/posts">
+                         Posts
+                         </a>
+                         <a class="btn zoombtn" href="{{ site.url }}/projects">
+                         Projects
+                         </a>
+                 </h3>
+            </div>
+        </div>
+    </header>
