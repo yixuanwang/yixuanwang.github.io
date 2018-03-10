@@ -8,12 +8,16 @@ layout: default
                 <div class="post-title {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
                     <h4>{{ page.date | date_to_string }}</h4>
-                    {% if page.reading_time %}
                     <p class="reading-time">
                       <i class="fa fa-clock-o"></i>
-                      Reading time ~{% if page.reading_time <= 1 %}1 minute{% else %}{{ page.reading_time }} minutes{% endif %}
+                      Reading time ~
+                      {% assign words = content | number_of_words %}
+                      {% if words < 360 %}
+                        1 min
+                      {% else %}
+                        {{ words | divided_by:180 }} mins
+                      {% endif %}
                     </p><!-- /.entry-reading-time -->
-                    {% endif %}
                     {% if page.project %}
                     <a class="btn zoombtn" href="{{site.url}}/projects/">
                     {% else %}
