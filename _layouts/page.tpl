@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-
+{% assign projects = site.posts | where:"type","project" %}
+{% assign posts = site.posts | where:"type","post" %}
 <!-- Header -->
 <header class="header" role="banner">
     <div class="wrapper animated fadeIn">
@@ -13,8 +14,8 @@ layout: default
                 </a>
             </div>
             {% if page.title == "Project" %}
-                {% for project in site.projects %} 
-                    {% if project.project %}
+            <div class="post-list">
+                {% for project in projects %} 
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ project.title }}</a>
@@ -22,11 +23,11 @@ layout: default
                                 <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                             </li>
                         </ul>
-                    {% endif %}
                 {% endfor %}
+            </div>
             {% elsif page.title == "Posts" %}
-                {% for post in site.posts %} 
-                sadldkjas
+            <div class="post-list">
+                {% for post in posts %} 
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
@@ -35,6 +36,7 @@ layout: default
                             </li>
                         </ul>
                 {% endfor %}
+            </div>
             {% else %}
                 {{ content }}
             {% endif %}

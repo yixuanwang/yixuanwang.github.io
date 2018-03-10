@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
