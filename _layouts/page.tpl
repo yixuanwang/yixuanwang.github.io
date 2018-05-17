@@ -15,19 +15,19 @@ layout: default
             </div>
             {% if page.title == "Project" %}
             <div class="post-list">
-                {% for project in projects %} 
+                {% for project in projects %}
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ project.title }}</a>
                                 <p>{{ project.excerpt }}</p>
-                                <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                                <a href="{{ site.url }}{{ project.url }}" class="btn zoombtn">Read More</a>
                             </li>
                         </ul>
                 {% endfor %}
             </div>
             {% elsif page.title == "Posts" %}
             <div class="post-list">
-                {% for post in posts %} 
+                {% for post in posts %}
                         <ul>
                             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                                 <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>

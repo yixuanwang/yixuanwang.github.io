@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Yixuan Wang  
+title: Yixuan Wang
 bio: "Welcome to my website! Feel free to take a look around~"
 description: > # this means to ignore newlines until "baseurl:"
   Welcome! Meet Yixuan Wang
@@ -28,7 +28,7 @@ plugins:
 # Social
 email: wangyixuan98@hotmail.com
 #twitter:            username
-facebook:           username
+facebook:           yixuan.wang.90
 github-url:         yixuanwang
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
@@ -62,4 +62,3 @@ github-url:         yixuanwang
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
