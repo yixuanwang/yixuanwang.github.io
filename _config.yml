@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Yixuan Wang
-bio: "Welcome to my website! Feel free to take a look around~"
+title: Yixuan (Hailey) Wang
+bio: "Welcome! Feel free to take a look around~"
 description: > # this means to ignore newlines until "baseurl:"
   Welcome! Meet Yixuan Wang
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -24,6 +24,7 @@ url: "http://yixuanwang.github.io" # the base hostname & protocol for your site,
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jemoji
 
 # Social
 email: wangyixuan98@hotmail.com

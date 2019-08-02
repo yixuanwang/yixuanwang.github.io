@@ -77,6 +77,10 @@
     font-weight:300;
 }
 .post-list {
+    li {
+      border-bottom: 1px solid #d0d1d5;
+      border-top: 1px solid #d0d1d5;
+    }
     .btn {
         @include font-rem(14);
     }
@@ -168,7 +172,7 @@ figure {
   }
 }
 svg:not(:root) {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 // keyboard tag
