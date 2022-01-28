@@ -31,7 +31,7 @@ layout: default
                          <a class="btn zoombtn" href="{{ site.url }}/projects">
                          Projects
                          </a>
-                         <a class="btn zoombtn" href="/assets/CV.pdf">
+                         <a class="btn zoombtn" href="/assets/HaileyWang_CV.pdf">
                          Resume
                          </a>
                  </h3>
